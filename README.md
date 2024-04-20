@@ -23,13 +23,11 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository. 
+The first project covers the basics of using [Nest](https://github.com/nestjs/nest) framework, providing explanations of how each component functions and its responsibilities. Subsequent projects will build upon this foundation by adding additional content and concepts related to this framework.
 
 ## Prerequisites
 
- [Node.js](https://nodejs.org/en) (version >= 16) is installed and Package Manager on your operating system.  Which package manager would you ❤️  to use? npm
-
+ [Node.js](https://nodejs.org/en) (version >= 16) is installed and Package Manager on your operating system.  Which package manager would you 🙄 to use? npm
 
 
 ## First steps
@@ -39,13 +37,8 @@ $ npm i -g @nestjs/cli
 $ nest new project-name
 ```
 
-## Project 
-aaa
+## Project created 
 
-> 
-
->
-> Helpful advice for doing things better or more easily.
 ```bash
 
 📁src/
@@ -81,6 +74,45 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+## Notes
+### Lifecycle Events
+
+
+```bash
+#initializing
+🐱‍🏍 Bootstrappong starts
+# Resolves host module dependencies(Controllers, Providers ..)
+
+🐱‍🏍 onModuleInit 
+# Called once the host module's dependencies have been resolved
+
+🐱‍🏍 onApplicationBootstrap
+#Called once all modules have been initialized, but before listening for connections.
+
+#running
+
+🎮 Start listeners
+# HTTP server, WS server
+
+🎮 Appication is running
+
+#terminating N\a
+
+```
+
+### Controllers
+ Handles incoming requests and returning responses to the client
+
+![alt text](image.png)
+
+During loading, the settings for decorators (@Controller, @Get, ...) are read and registered in the context of the routes along with the other configurations made in the application.
+
+In this project, we will use the basic settings, after all, it is a gradual study of Nestjs.
+
+### Services
+
+### Modules
+
 
 ## Support
 
