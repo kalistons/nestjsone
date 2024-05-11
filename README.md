@@ -99,20 +99,51 @@ $ npm run test:cov
 #terminating N\a
 
 ```
-
 ### Controllers
- Handles incoming requests and returning responses to the client
 
-![alt text](image.png)
+Responsible for handling incoming requests and returning responses to the client.
 
-During loading, the settings for decorators (@Controller, @Get, ...) are read and registered in the context of the routes along with the other configurations made in the application.
+![alt text](img/image.png)
 
-In this project, we will use the basic settings, after all, it is a gradual study of Nestjs.
+### Providers
 
-### Services
+The main idea of a provider is that it can be injected as a dependency.
+
+![alt text](img/image-3.png)
 
 ### Modules
+Nest makes use of to organize the application structure.
 
+![alt text](img/image-4.png)
+
+### Middleware
+
+Function which is called before the route handler.
+
+![alt text](img/image-5.png)
+
+### Filters/Pipes
+
+![alt text](img/image-6.png)
+
+### Guards
+
+Guards have a single responsibility. They determine whether a given request will be handled by the route handler or not,depending on certain conditions
+
+![alt text](img/image-7.png)
+
+### Interceptors
+
+![alt text](img/image-8.png)
+
+### The Request-Response Lifecycle in NestJS
+![alt text](img/image-2.png)
+
+
+![alt text](img/image-1.png)
+
+## Evolution
+ - Branch feature/
 
 ## Support
 
@@ -123,6 +154,11 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 - Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
+
+## Reference
+- Documentation - [https://nestjs.com](https://nestjs.com/)
+
+- Introduction to NestJS - [Mitrais](https://www.mitrais.com/news-updates/a-quick-introduction-to-nestjs/)
 
 ## License
 
