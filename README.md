@@ -99,11 +99,16 @@ $ npm run test:cov
 #terminating N\a
 
 ```
+<details>
+
 ### Controllers
 
 Responsible for handling incoming requests and returning responses to the client.
+<p align="center" width="100%">
+  <img width="60%" src="img/image.png">
+</p>
 
-![alt text](img/image.png)
+</details>
 
 ### Providers
 
