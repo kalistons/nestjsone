@@ -99,9 +99,9 @@ $ npm run test:cov
 #terminating N\a
 
 ```
-<details>
 
-### Controllers
+<details>
+<summary><b style="font-size: 1.25em;">Controllers</b></summary>
 
 Responsible for handling incoming requests and returning responses to the client.
 <p align="center" width="100%">
@@ -110,61 +110,100 @@ Responsible for handling incoming requests and returning responses to the client
 
 </details>
 
-### Providers
+<details>
+<summary><b style="font-size: 1.25em;">Providers</b></summary>
 
 The main idea of a provider is that it can be injected as a dependency.
+<p align="center" width="100%">
+  <img width="60%" src="img/image-3.png">
+</p>
 
-![alt text](img/image-3.png)
+</details>
 
-### Modules
+<details>
+<summary><b style="font-size: 1.25em;">Modules</b></summary>
+
 Nest makes use of to organize the application structure.
+<p align="center" width="100%">
+  <img width="60%" src="img/image-4.png">
+</p>
 
-![alt text](img/image-4.png)
+</details>
 
-### Middleware
+<details>
+<summary><b style="font-size: 1.25em;">Middleware</b></summary>
 
 Function which is called before the route handler.
+<p align="center" width="100%">
+  <img width="60%" src="img/image-5.png">
+</p>
 
-![alt text](img/image-5.png)
+</details>
 
-### Filters/Pipes
+<details>
+<summary><b style="font-size: 1.25em;">Filters/Pipes</b></summary>
 
-![alt text](img/image-6.png)
 
-### Guards
+<p align="center" width="100%">
+  <img width="60%" src="img/image-6.png">
+</p>
+
+</details>
+
+<details>
+<summary><b style="font-size: 1.25em;">Guards</b></summary>
+
 
 Guards have a single responsibility. They determine whether a given request will be handled by the route handler or not,depending on certain conditions
 
-![alt text](img/image-7.png)
+<p align="center" width="100%">
+  <img width="60%" src="img/image-7.png">
+</p>
 
-### Interceptors
+</details>
 
-![alt text](img/image-8.png)
+<details>
+<summary><b style="font-size: 1.25em;">Interceptors</b></summary>
 
-### The Request-Response Lifecycle in NestJS
-![alt text](img/image-2.png)
+<p align="center" width="100%">
+  <img width="60%" src="img/image-8.png">
+</p>
+
+</details>
+
+<details>
+<summary><b style="font-size: 1.25em;">The details Lifecycle</b></summary>
+
+<p align="center" width="100%">
+  <img width="60%" src="img/image-2.png">
+</p>
+
+<p align="center" width="100%">
+  <img width="60%" src="img/image-1.png">
+</p>
+
+</details>
 
 
-![alt text](img/image-1.png)
-
-## Evolution
+### Evolution
  - Branch feature/
 
-## Support
+### Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
+### Stay in touch
 
 - Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
 
-## Reference
+### References
+
 - Documentation - [https://nestjs.com](https://nestjs.com/)
 
 - Introduction to NestJS - [Mitrais](https://www.mitrais.com/news-updates/a-quick-introduction-to-nestjs/)
 
-## License
+### License
 
 Nest is [MIT licensed](LICENSE).
